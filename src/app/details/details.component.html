@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="post-detail">
+    <a [routerLink]="['/home']">Back to main page</a>
+    <h2 class="post-title">{{ post?.title }}</h2>
+    <h3 class="post-author">{{ user?.name }}</h3>
+    <p class="post-body">{{ post?.body }}</p>
+  </div>
+  <h3 class="comment-title">Comments</h3>
+  <div class="comments" *ngFor="let comment of comments">
+    <div class="comment">
+      <h5 class="comment-name">{{ comment.name }}</h5>
+
+      <h5 class="comment-email">{{ comment.email }}</h5>
+      <h5 class="comment-body">{{ comment.body }}</h5>
+    </div>
+  </div>
+</div>

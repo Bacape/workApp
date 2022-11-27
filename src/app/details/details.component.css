@@ -1,0 +1,53 @@
+.container {
+  max-width: 500px;
+}
+.post-detail {
+  background-color: #212529;
+  padding: 5px 15px;
+  margin: 15px 15px 50px 15px;
+  border-radius: 6px;
+}
+.post-title {
+  font-size: 26px;
+  color: #f8f9fa;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.post-author {
+  font-size: 16px;
+  color: #f8f9fa;
+  font-weight: 500;
+}
+.post-body {
+  font-size: 15px;
+  color: #f8f9fa;
+}
+.comment {
+  background-color: #212529;
+  padding: 5px 15px;
+  margin: 15px;
+  border-radius: 6px;
+}
+.comment-title {
+  font-size: 26px;
+  color: #212529;
+  margin: 15px;
+  font-weight: 600;
+}
+.comment-name {
+  font-size: 20px;
+  color: #f8f9fa;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.comment-email {
+  font-size: 16px;
+  color: #f8f9fa;
+  margin-bottom: 15px;
+}
+.comment-body {
+  font-size: 12px;
+  color: #f8f9fa;
+  line-height: 1.3;
+}
